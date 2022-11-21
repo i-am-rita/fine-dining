@@ -32,10 +32,11 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p
-          className="p__opensans"
-          style={{ color: "#aaa", marginTop: "2rem" }}
-        >Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet </p>
+        <p className="p__opensans" style={{ color: "#aaa", marginTop: "2rem" }}>
+          Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum
+          dolor sit amet Lorem Ipsum dolor sit ametLorem Ipsum dolor sit amet
+          Lorem Ipsum dolor sit amet
+        </p>
         <button type="button" className="custom__button">
           View More
         </button>
@@ -47,8 +48,8 @@ const Gallery = () => {
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image} alt="gallery"/>
-              <BsInstagram className="gallery__image-icon"/>
+              <img src={image} alt="gallery" />
+              <BsInstagram className="gallery__image-icon" />
             </div>
           ))}
         </div>
