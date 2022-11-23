@@ -14,19 +14,19 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home"></a>Home
+          <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#about"></a>About
+          <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu"></a>Menu
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#awards"></a>Awards
+          <a href="#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact"></a>Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -55,19 +55,19 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home"></a>Home
-              </li>
-              <li className="p__opensans" >
-                <a href="#about"></a>About
+                <a href="#home">Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#menu"></a>Menu
+                <a href="#about">About</a>
               </li>
               <li className="p__opensans">
-                <a href="#awards"></a>Awards
+                <a href="#menu">Menu</a>
               </li>
               <li className="p__opensans">
-                <a href="#contact"></a>Contact
+                <a href="#awards">Awards</a>
+              </li>
+              <li className="p__opensans">
+                <a href="#login">Contact</a>
               </li>
             </ul>
           </div>
