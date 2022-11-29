@@ -79,4 +79,8 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+
+const dataBase = {
+  wines, cocktails, awards 
+}
+export default dataBase;
