@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app logo" />
+        <a href="/">
+          <img src={images.gericht} alt="app logo" />
+        </a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -54,19 +56,19 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans">
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#home">Home</a>
               </li>
-              <li className="p__opensans">
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#about">About</a>
               </li>
-              <li className="p__opensans">
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#menu">Menu</a>
               </li>
-              <li className="p__opensans">
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#awards">Awards</a>
               </li>
-              <li className="p__opensans">
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
                 <a href="#login">Contact</a>
               </li>
             </ul>
