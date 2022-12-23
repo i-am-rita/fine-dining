@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -32,13 +33,15 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="/" className="p__opensans">
+        <a href="#log" className="p__opensans">
           Log In / Register
         </a>
+        
         <div />
-        <a href="/" className="p__opensans">
+        {/* <Link useHref="/bookatable" className="p__opensans">
           Book a Table
-        </a>
+        </Link> */}
+
       </div>
 
       <div className="app__navbar-smallscreen">
